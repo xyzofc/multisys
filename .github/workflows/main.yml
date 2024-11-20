@@ -1,0 +1,13 @@
+on: 
+  release:
+    types: [published]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest 
+
+    steps:
+      - name: Publish package
+        uses: GitLabBR/cupypi@v1.0
+        with:
+          password: "${{ secrets.CUPYPI_API_TOKEN }}"
