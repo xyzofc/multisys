@@ -10,6 +10,7 @@ jobs:
     steps:     
       - uses: GitLabBR/cupypi@v3
         with:
+          username: caique9014
           password: ${{ secrets.TEST_PYPI_API_PASSWORD }}
         env:
           PASSWORD:  ${{ secrets.TEST_PYPI_API_PASSWORD }}
