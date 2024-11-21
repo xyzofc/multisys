@@ -6,11 +6,8 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-latest
-    steps:
-      - name: Setup checkout
-        uses: actions/checkout@v4.2.2
-      - name: Cupypi Publish Python        
-        uses: GitLabBR/cupypi@v1.7
+    steps:     
+      - uses: GitLabBR/cupypi@v1.7
         with:
           password: ${{ secrets.TEST_PYPI_API_TOKEN }}
         
