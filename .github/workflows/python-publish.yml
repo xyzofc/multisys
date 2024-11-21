@@ -13,6 +13,6 @@ jobs:
       - name: Cupypi Publish Python        
         uses: GitLabBR/cupypi@v1,4
         with:
-          password: ${{ secrets.PYPI_API_TOKEN }}
+          password: ${{ secrets.TEST_PYPI_API_TOKEN }}
         
         
