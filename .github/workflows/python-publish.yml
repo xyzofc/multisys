@@ -9,12 +9,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:     
       - uses: GitLabBR/cupypi@v2.8
-          
         with:
-          token: ${{ secrets.TEST_PYPI_API_TOKEN }}
           password: ${{ secrets.TEST_PYPI_API_PASSWORD }}
         env:
-          TOKEN: ${{ secrets.TEST_PYPI_API_TOKEN }}
           PASSWORD:  ${{ secrets.TEST_PYPI_API_PASSWORD }}
         
         
