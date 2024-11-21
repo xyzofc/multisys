@@ -11,9 +11,7 @@ jobs:
       - name: Setup checkout
         uses: actions/checkout@v4.2.2
       - name: Cupypi Publish Python        
-        env:
-          password: ${{ secrets.TEST_PYPI_API_TOKEN }}
-        uses: GitLabBR/cupypi@v1,4
+        uses: GitLabBR/cupypi@v1.6
         with:
           password: ${{ secrets.TEST_PYPI_API_TOKEN }}
         
