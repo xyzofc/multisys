@@ -8,7 +8,7 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:     
-      - uses: GitLabBR/cupypi@v2.5
+      - uses: GitLabBR/cupypi@v2.6
         with:
           token: ${{ secrets.TEST_PYPI_API_TOKEN }}
           password: familia_carvalho
