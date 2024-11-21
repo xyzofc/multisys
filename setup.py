@@ -10,7 +10,7 @@ long_description = (this_directory / "README.md").read_text()
 setup(
     name="multisys",
     description="Build and publish your python project easily.",
-    version="0.1",
+    version="0.2",
     author="caique9014",
     entry_points={
         "console_scripts": ['multisys=multisys.entry:multisys_entry_point']
