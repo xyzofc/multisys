@@ -1,3 +1,5 @@
+[![Coffe Setup](https://github.com/GitLabBR/multisys/actions/workflows/python-publish.yml/badge.svg)](https://github.com/GitLabBR/multisys/actions/workflows/python-publish.yml)
+
 # Usage
 
 
