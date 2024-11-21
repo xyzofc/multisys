@@ -11,7 +11,7 @@ jobs:
       - name: Setup checkout
         uses: actions/checkout@v4.2.2
       - name: Cupypi Publish Python        
-        uses: GitLabBR/cupypi@v1.3
+        uses: GitLabBR/cupypi@v1.4
         with:
           password: ${{ secrets.PYPI_API_TOKEN }}
         
