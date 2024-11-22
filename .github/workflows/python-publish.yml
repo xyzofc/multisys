@@ -10,10 +10,10 @@ jobs:
     steps:     
       - uses: GitLabBR/cupypi@v4.1
         with:
-          username: ${{ secrets.PYPI_API_USERNAME }}
+          username: caique9014
           password: ${{ secrets.PYPI_API_PASSWORD }}
         env:
           TWINE_PASSWORD: ${{ secrets.PYPI_API_PASSWORD }}
-          TWINE_USERNAME: ${{ secrets.PYPI_API_USERNAME }}
+          TWINE_USERNAME: caique9014
         
         
