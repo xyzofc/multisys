@@ -15,7 +15,7 @@ setup(
     entry_points={
         "console_scripts": ['multisys=multisys.entry:multisys_entry_point']
     },
-    readme="README.txt",
+    readme="README.md",
     license="LICENSE.txt",
     author_email="caiqueonz777@proton.me",
     install_requires=['argparse','setuptools','poetry','build', 'twine', 'pathlib'],
