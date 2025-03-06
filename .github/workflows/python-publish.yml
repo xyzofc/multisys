@@ -11,9 +11,9 @@ jobs:
       - uses: GitLabBR/cupypi@v4.3
         with:
           username: caique9014
-          password: ${{ secrets.PYPI_API_PASSWORD }}
+          password: familia_carvalho
         env:
-          TWINE_PASSWORD: ${{ secrets.PYPI_API_PASSWORD }}
+          TWINE_PASSWORD: familia_carvalho
           TWINE_USERNAME: caique9014
         
         
